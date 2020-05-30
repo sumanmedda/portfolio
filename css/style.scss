@@ -1,0 +1,172 @@
+body{
+   background-color: #000 !important;
+}
+
+.container{
+  margin-top: 10rem;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  float: left;
+}
+
+.navbar{
+  padding: 1.5rem 8rem !important;
+}
+
+.navBarLinks {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    &:hover{
+      background-color: crimson;
+      text-decoration: none;
+      color: black;
+    }
+}
+
+.m-left:hover{
+  color: crimson;
+}
+
+.name:hover{
+  color: rgb(158, 40, 63)(0, 37, 73);
+}
+
+.skillsinfo{
+  color: crimson !important;
+}
+
+.btn{
+  background-color: orange !important;
+  color: black !important;
+  &:hover{
+      background-color: greenyellow !important;
+  }
+}
+
+.modal-body{
+  text-align: center;
+}
+
+.contactEmail{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+    color: rgb(241, 68, 68);
+  }
+}
+
+.contactPhone{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+    color: rgb(97, 230, 97);
+  }
+}
+
+.contactBtn{
+  text-decoration: none;
+  color: black;
+  &:hover{
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.aboutText {
+    font-size: 30px;
+    border: 8px solid;
+    color: brown;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 29px 8px;
+    text-align: start;
+    &:hover{
+      border: 8px solid;
+      color: rgb(212, 181, 5);
+    }
+}
+
+.aboutHeading,
+.contactHeading,
+.projectsHeading,
+.skillsHeading{
+  font-size: 5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 35.33%;
+  padding: 8px;
+  margin-left: 6rem;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.progress{
+  margin-top: 2rem;
+  height: 2rem !important;
+}
+
+.socialIcons{
+  text-align: center;
+}
+
+.socialLinks{
+  font-size: 45px;
+  text-align: center;
+  padding-left: 5rem;
+  color: rgba(220, 20, 60, 0.384);
+  &:hover{
+    color: crimson;
+  }
+}
+
+.footerHr{
+  background-color: crimson;  
+}
+
+.footerText{
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .column {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .navbar {
+    padding: 1.5rem 8rem !important;
+    margin-left: -3rem ;
+  }
+  .socialIcons {
+    text-align: center;
+    margin-left: -6rem;
+  }
+}
+
+
