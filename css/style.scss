@@ -1,5 +1,11 @@
 body{
-   background-color: #000 !important;
+   background-color: rgb(21, 29, 37) !important;
+   color: #000 !important;
+}
+
+.dark-mode{ 
+  background-color: whitesmoke !important;
+  color: #000;
 }
 
 .container{
@@ -14,14 +20,18 @@ li{
   float: left;
 }
 
+.custom-switch {
+    padding-left: 4.25rem;
+    margin-top: 14px;
+}
+
 .navbar{
   padding: 1.5rem 8rem !important;
 }
 
 .navBarLinks {
     text-decoration: none;
-    color: white;
-    background-color: black;
+    color: goldenrod;
     border-radius: 3rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
@@ -47,13 +57,6 @@ li{
   color: crimson !important;
 }
 
-.btn{
-  background-color: orange !important;
-  color: black !important;
-  &:hover{
-      background-color: greenyellow !important;
-  }
-}
 
 .modal-body{
   text-align: center;
@@ -76,11 +79,13 @@ li{
 }
 
 .contactBtn{
+  background-color: orange !important;
   text-decoration: none;
   color: black;
   &:hover{
     text-decoration: none;
     color: black;
+    background-color: greenyellow !important;
   }
 }
 
@@ -166,6 +171,12 @@ li{
   .socialIcons {
     text-align: center;
     margin-left: -6rem;
+  }
+
+  .custom-switch {
+    padding-left: 2.25rem;
+    margin-top: 4rem;
+    margin-left: -67px;
   }
 }
 

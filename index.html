@@ -26,6 +26,14 @@
           <li><a class="navBarLinks hvr-bounce-in" href="#skills">SKILLS</a></li>
           <li><a class="navBarLinks hvr-bounce-in" href="Suman_Medda_Resume.pdf" target="_blank">RESUME</a></li>
           <li><a class="navBarLinks hvr-bounce-in" href="#contact">CONTACT</a></li>
+          <li>
+            <form>
+              <div class="custom-control custom-switch">
+                <input type="checkbox" onclick="myFunction()" class="custom-control-input" id="switch1" name="example">
+                <label class="custom-control-label" for="switch1"></label>
+              </div>
+            </form>
+          </li>
         </ul>
       </nav>
     </div>
@@ -157,6 +165,12 @@
   
     
     <!-- //SCRIPTS// -->
+    <script>
+      function myFunction() {
+        let bodyColor = document.body;
+        bodyColor.classList.toggle("dark-mode");
+      }
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
